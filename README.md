@@ -1,58 +1,38 @@
 # Car-Market-Analysis
-VOIS AICTE DIY Project - Car Market Analysis
 
-This project was completed as part of the **VOIS AICTE Virtual Internship Program**, under the DIY (Do It Yourself) Project track.
+**VOIS AICTE DIY Project — Car Market Analysis**
 
-VOIS AICTE DIY Project - Car Market Analysis
-This project was completed as part of the **VOIS for Tech Program on Data Analytics**, a CSR initiative by VOIS and Vodafone Idea Foundation — a 4-week Virtual Internship on Data Analytics.
+This project was completed as part of the **VOIS for Tech Program on Data Analytics**, a CSR initiative by **VOIS and Vodafone Idea Foundation** — a 4-Week Virtual Internship on Data Analytics.
 
-Car Market Analysis
-DIY Project | Batch 1, 2026-2027
+Car Market Analysis | Batch 1, 2026-2027
 
 ## 👤 Submitted By
-**Name:** Gajanan Harinarayan Raje
-
-**College:** MGM's College of Computer Science & IT, Nanded
-
-**Course:** BCA (5th Semester), SRTMU University
+- **Name:** Gajanan Harinarayan Raje
+- **College:** MGM's College of Computer Science & IT, Nanded
+- **Course:** BCA (5th Semester), SRTMU University
 
 ## 📌 Project Overview
-**Dataset Size:** 299 records (after removing 2 duplicates) × 9 columns (Car Name, Year, Selling Price, Present Price, Kms Driven, Fuel Type, Seller Type, Transmission, Owner)
+**Dataset Size:** 299 used-car records (after removing 2 duplicates) × 9 columns, covering car name, manufacturing year, selling price, present price, kilometers driven, fuel type, seller type, transmission, and ownership history.
+
 This project analyzes used-car market data from Car Dekho, covering vehicles with varying prices, fuel types, transmission types, and usage levels. The goal is to identify the key factors that influence a used car's selling price and provide data-driven insights for buyers, sellers, and dealers.
 
 ## 📂 Repository Structure
 ├── dataset/
-
 │   └── car_data.csv
-
 ├── notebook/
-
 │   └── Car_Market_Analysis_Gajanan.ipynb
-
 ├── graphs/
-
 │   ├── 01_selling_price_distribution.png
-
 │   ├── 02_fuel_type_count.png
-
 │   ├── 03_transmission_count.png
-
 │   ├── 04_price_by_fuel_type.png
-
 │   ├── 05_price_by_transmission.png
-
 │   ├── 06_age_vs_price.png
-
 │   ├── 07_kms_vs_price.png
-
 │   ├── 08_price_by_seller_type.png
-
 │   └── 09_correlation_heatmap.png
-
 ├── presentation/
-
 │   └── Car_Market_Analysis_Gajanan.pptx
-
 └── README.md
 
 ## 🎯 Objective
@@ -67,7 +47,7 @@ This project analyzes used-car market data from Car Dekho, covering vehicles wit
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 
 ## 🔍 Methodology
-1. **Data Cleaning** — Removed duplicate rows; checked for missing values
+1. **Data Cleaning** — Removed 2 duplicate rows; checked for missing values
 2. **Feature Engineering** — Created Car_Age column from manufacturing year
 3. **Exploratory Data Analysis (EDA)** — Explored dataset structure and summary statistics
 4. **Univariate Analysis** — Distribution of selling price, fuel type and transmission counts
@@ -76,7 +56,7 @@ This project analyzes used-car market data from Car Dekho, covering vehicles wit
 
 ## 📊 Key Findings
 | Category | Average Selling Price |
-|---|---|
+|----------|------------------------|
 | Diesel | ₹10.10 Lakhs |
 | Petrol | ₹3.26 Lakhs |
 | Automatic | ₹9.07 Lakhs |
