@@ -18,21 +18,37 @@ This project analyzes used-car market data from Car Dekho, covering vehicles wit
 
 ## 📂 Repository Structure
 ├── dataset/
+
 │   └── car_data.csv
+
 ├── notebook/
+
 │   └── Car_Market_Analysis_Gajanan.ipynb
+
 ├── graphs/
+
 │   ├── 01_selling_price_distribution.png
+
 │   ├── 02_fuel_type_count.png
+
 │   ├── 03_transmission_count.png
+
 │   ├── 04_price_by_fuel_type.png
+
 │   ├── 05_price_by_transmission.png
+
 │   ├── 06_age_vs_price.png
+
 │   ├── 07_kms_vs_price.png
+
 │   ├── 08_price_by_seller_type.png
+
 │   └── 09_correlation_heatmap.png
+
 ├── presentation/
+
 │   └── Car_Market_Analysis_Gajanan.pptx
+
 └── README.md
 
 ## 🎯 Objective
